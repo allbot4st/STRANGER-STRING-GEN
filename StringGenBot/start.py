@@ -12,22 +12,30 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""» ʜᴇʏ⚡️{msg.from_user.mention}  ⚡️,
- » ɪ ᴀᴍ{me2},
+        text=f"""» ʜᴇʏ⚡️{msg.from_user.mention} ⚡,
 
-» Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
+» 𝐇𝐄𝐘💓{me2}💞💞💞💞,
 
-» ᴘʟᴇᴀꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ.
+➳ 𝐈 𝐀𝐦 𝐒ᴛʀɪɴɢ 𝐆ᴇɴ 𝐁ᴏᴛ❣❣,
+❥𝗛𝗢𝗪 𝗧𝗢 𝗨𝗦𝗘:- 
 
-» ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ: [⚡️𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛-𝗫𝗗⚡️](tg://user?id={OWNER_ID}) !""",
+☞︎ /start bot
+☞︎ seletect pv1 (payrogram v1)
+☞︎ tap on /skip
+☞︎ share ur id mobile num (eg:- +916969696969)
+☞︎ enter otp with space ( eg:- 1 2 3 4 5)
+☞︎ done 💆‍♀️...see ur save mesg...✅
+
+𝐌𝐚𝐝𝐞 𝐁𝐲  : 👻4sᴛ 𝐎ᴡɴᴇʀ !
+» ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ, ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ ᴏᴡɴᴇʀ: [🌐ㅤ 4ˢᵗ➳𝐌ɪɴᴅ 𝐆ᴀᴍᴇʀ🍃❄](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="⚡𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆⚡", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", url="https://t.me/MASTIWITHFRIENDSX"),
-                    InlineKeyboardButton("⚡️𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛-𝗫𝗗⚡️", url="https://t.me/SHIVANSH474")
+                    InlineKeyboardButton("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", url="https://t.me/CODEX_KA_BAAP_4ST"),
+                    InlineKeyboardButton("🕸‌🇻‌‌🇮‌‌🇸‌‌🇮‌‌🇹‌🌸", url="https://t.me/I_m_fighter")
                 ]
             ]
         ),
